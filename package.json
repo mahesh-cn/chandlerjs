@@ -1,0 +1,23 @@
+{
+  "name": "chandler.js",
+  "version": "1.0.0",
+  "description": "Chandler JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahesh-cn/chandler.js.git"
+  },
+  "keywords": [
+    "Chandler",
+    "JS"
+  ],
+  "author": "Mahesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahesh-cn/chandler.js/issues"
+  },
+  "homepage": "https://github.com/mahesh-cn/chandler.js#readme"
+}
