@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/mahesh-cn/chandler.js/issues"
   },
-  "homepage": "https://github.com/mahesh-cn/chandler.js#readme"
+  "homepage": "https://github.com/mahesh-cn/chandler.js#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
