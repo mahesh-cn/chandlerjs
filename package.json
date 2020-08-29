@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-dev": "nodemon index.js"
+    "build": "babel ./index.js src -d lib",
+    "start-dev": "nodemon --exec babel-node index.js",
+    "serve": "node dist/server.js"
   },
   "repository": {
     "type": "git",
@@ -22,10 +24,16 @@
   },
   "homepage": "https://github.com/mahesh-cn/chandler.js#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "ejs": "^3.1.5",
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
     "nodemon": "^2.0.4"
   }
 }
